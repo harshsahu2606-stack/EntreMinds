@@ -1,0 +1,2 @@
+import { Bell, Search } from 'lucide-react';
+export function Header(){return <header className="topbar"><label className="global-search"><Search size={18}/><input placeholder="Search products, invoices, customers..."/></label><div className="header-actions"><button className="icon-btn notification"><Bell size={19}/><i/></button><div className="profile"><div>AS</div><span><b>Ajay Sharma</b><small>Owner</small></span></div></div></header>}
